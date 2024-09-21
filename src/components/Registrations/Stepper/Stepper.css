@@ -1,0 +1,58 @@
+.step-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+}
+
+.step-item:not(:first-child):before {
+  content: '';
+  background-color: #e2e8f0;
+  position: absolute;
+  width: 200%;
+  height: 5px;
+  right: 50%;
+  top: 33%;
+  transform: translateY(-50%);
+  transition: background-color  400ms ease; /* Smooth transition */
+}
+
+.step {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  background-color: #334155;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: white;
+
+}
+
+.active .step {
+  background-color: #0284c7; /* Equivalent to bg-sky-600 */
+}
+
+.complete .step {
+  background-color: #16a34a; /* Equivalent to bg-green-600 */
+}
+
+.complete p {
+  color: white;
+}
+
+/* Transition for the line color */
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+  background-color: #16a34a; /* Equivalent to bg-green-600 */
+}
+
+.step-item.active:before {
+  background-color: #16a34a; /* Change to green for the active step */
+}

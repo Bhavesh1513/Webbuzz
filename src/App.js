@@ -1,24 +1,26 @@
-import "./App.css";
-import { useState } from "react";
-
-function App() {
- 
-  const [backgroundColor,setBackgroundColor] = useState("red")
-   
-  const changeColor=()=>{
-      
-  }
-
+import './App.css'
+import React from 'react'
+import { Routes,Route } from 'react-router-dom'
+import LandingPage from './pages/LandingPage'
+import Champions from './pages/Champions'
+import Teams from './pages/Teams'
+import Registration from './pages/Registration'
+import Login from './pages/Login'
+import UpcomingMatchesPage from './pages/UpcomingMatchesPage'
+const App = () => {
   return (
-    <div className="w-full h-screen  text-white flex flex-col justify-end items-center pt " style={{backgroundColor: backgroundColor}}>
-        <div className="flex flex-row w-64 h-12 bg-white mb-10 justify-center items-center gap-4 rounded-full">
-          <button className="bg-red-600 w-16 h-8  rounded-full " onClick={()=>setBackgroundColor("red")}>Red</button>
-          <button className="bg-green-600 w-16 h-8  rounded-full" onClick={()=>setBackgroundColor("green")}>Green</button>
-          <button className="bg-yellow-600 w-16 h-8  rounded-full" onClick={()=>setBackgroundColor("yellow")}>Yellow</button>
-        </div>
-        
+    <div className=' w-[100%]'>
+      <Routes>
+        <Route path='/' element={<LandingPage/>}  />
+        <Route path='/upcomingmatches' element={<UpcomingMatchesPage/>}  />
+        <Route path='/champions' element={<Champions/>}  />
+        <Route path='/teams' element={<Teams/>}  />
+        {/* <Route path='/teams/:teamName' element={<TeamDetails />} /> */}
+        <Route path='/registration' element={<Registration />} />
+        <Route path='/login' element={<Login/>} />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
