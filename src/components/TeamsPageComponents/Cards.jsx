@@ -39,7 +39,7 @@ const Cards = () => {
 
     return (
         <div className='mt-10 w-11/12'>
-            <div className='flex flex-row gap-7 justify-center'>
+            <div className='flex flex-row flex-wrap gap-7 justify-center '>
                 {
                     COUNTRY_LOGO.map((item) => (
                         <button key={item.id} onClick={() => setCountry(item.Name)} className='' >

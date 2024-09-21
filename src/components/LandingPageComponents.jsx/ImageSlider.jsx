@@ -25,7 +25,7 @@ const ImageSlider = () => {
     }, []);
 
     return (
-        <div className="mt-64 text-center pb-5">
+        <div className="mt-64 text-center pb-5 ">
             <div className="text-5xl py-5">Discover Stunning Views Experience Every Angle with Dynamic Slides</div>
 
             <div className="slider border-2 ">
