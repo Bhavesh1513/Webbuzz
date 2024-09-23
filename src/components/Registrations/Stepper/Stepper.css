@@ -1,22 +1,31 @@
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Make sure the container takes the full width */
+  padding: 0 1rem; /* Optional padding for better spacing */
+}
+
 .step-item {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 9rem;
+  flex: 1; /* Allow the step item to stretch evenly */
+  text-align: center; /* Align text centrally */
 }
 
 .step-item:not(:first-child):before {
   content: '';
   background-color: #e2e8f0;
   position: absolute;
-  width: 200%;
+  width: 100%;
   height: 5px;
   right: 50%;
   top: 33%;
   transform: translateY(-50%);
-  transition: background-color  400ms ease; /* Smooth transition */
+  transition: #16a34a 400ms ease;
 }
 
 .step {
@@ -32,27 +41,61 @@
   font-weight: 600;
   font-size: 1.8rem;
   color: white;
-
 }
 
 .active .step {
-  background-color: #0284c7; /* Equivalent to bg-sky-600 */
+  background-color: #0284c7; /* Active step color */
 }
 
 .complete .step {
-  background-color: #16a34a; /* Equivalent to bg-green-600 */
+  background-color: #16a34a; /* Completed step color */
 }
 
 .complete p {
   color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-/* Transition for the line color */
 .complete:not(:first-child):before,
 .active:not(:first-child):before {
-  background-color: #16a34a; /* Equivalent to bg-green-600 */
+  background-color: #16a34a; /* Completed step line color */
 }
 
 .step-item.active:before {
-  background-color: #16a34a; /* Change to green for the active step */
+  background-color: #16a34a; /* Active step line color */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .step-item {
+    width: auto; /* Let it scale automatically */
+  }
+
+  .step {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .text-gray-500 {
+    font-size: 0.9rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .step-item {
+    width: auto;
+  }
+
+  .step {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .text-gray-500 {
+    font-size: 0.8rem;
+  }
 }

@@ -139,10 +139,11 @@ export const ENGLAND = [
     },
     {
       id:"ENG5",
-      Name: "Mohammad Shami",
+      Name: "Jofra Archer",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170970/jofra-archer.jpg",
       Age:"34",
-      profession:"Bowler",
-      jerseyNo: "11",
+      profession:"All Rounder",
+      jerseyNo: "22",
       country:"ENG"
     },
     {
@@ -205,6 +206,7 @@ export const ENGLAND = [
     {
       id:"AUS1",
       Name: "David Warner",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352449/david-warner.jpg",
       Age:"37",
       profession:"Batter",
       jerseyNo: "31",
@@ -213,6 +215,7 @@ export const ENGLAND = [
     {
       id:"AUS2",
       Name: "Pat Cummins",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352460/pat-cummins.jpg",
       Age:"30",
       profession:"Bowler",
       jerseyNo: "30",
@@ -221,6 +224,7 @@ export const ENGLAND = [
     {
       id:"AUS3",
       Name: "Mitchell Marsh",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352452/mitchell-marsh.jpg",
       Age:"32",
       profession:"All Rounder",
       jerseyNo: "33",
@@ -229,6 +233,7 @@ export const ENGLAND = [
     {
       id:"AUS4",
       Name: "Steve Smith",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352448/steven-smith.jpg",
       Age:"34",
       profession:"Batter",
       jerseyNo: "49",
@@ -237,6 +242,7 @@ export const ENGLAND = [
     {
       id:"AUS5",
       Name: "Glenn Maxwell",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352454/glenn-maxwell.jpg",
       Age:"35",
       profession:"All Rounder",
       jerseyNo: "32",
@@ -245,6 +251,7 @@ export const ENGLAND = [
     {
       id:"AUS6",
       Name: "Alex Carey",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352457/alex-carey.jpg",
       Age:"32",
       profession:"Wicket Keeper",
       jerseyNo: "5",
@@ -253,6 +260,7 @@ export const ENGLAND = [
     {
       id:"AUS7",
       Name: "Travis Head",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c332908/travis-head.jpg",
       Age:"30",
       profession:"Batter",
       jerseyNo: "23",
@@ -261,6 +269,7 @@ export const ENGLAND = [
     {
       id:"AUS8",
       Name: "Josh Hazlewood",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352459/josh-hazlewood.jpg",
       Age:"33",
       profession:"Bowler",
       jerseyNo: "38",
@@ -269,6 +278,7 @@ export const ENGLAND = [
     {
       id:"AUS9",
       Name: "Marcus Stoinis",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352453/marcus-stoinis.jpg",
       Age:"35",
       profession:"All Rounder",
       jerseyNo: "14",
@@ -277,6 +287,7 @@ export const ENGLAND = [
     {
       id:"AUS10",
       Name: "Cameron Green",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352451/cameron-green.jpg",
       Age:"25",
       profession:"All Rounder",
       jerseyNo: "42",
@@ -285,6 +296,7 @@ export const ENGLAND = [
     {
       id:"AUS11",
       Name: "Adam Zampa",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352461/adam-zampa.jpg",
       Age:"32",
       profession:"Bowler",
       jerseyNo: "63",
@@ -296,6 +308,7 @@ export const ENGLAND = [
     {
       id:"PAK1",
       Name: "Babar Azam",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352417/babar-azam.jpg",
       Age:"30",
       profession:"Batter",
       jerseyNo: "56",
@@ -304,6 +317,7 @@ export const ENGLAND = [
     {
       id:"PAK2",
       Name: "Shaheen Afridi",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352430/shaheen-afridi.jpg",
       Age:"25",
       profession:"Bowler",
       jerseyNo: "10",
@@ -312,6 +326,7 @@ export const ENGLAND = [
     {
       id:"PAK3",
       Name: "Shadab Khan",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352424/shadab-khan.jpg",
       Age:"30",
       profession:"All Rounder",
       jerseyNo: "7",
@@ -320,6 +335,7 @@ export const ENGLAND = [
     {
       id:"PAK4",
       Name: "Mohammad Rizwan",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352426/mohammad-rizwan.jpg",
       Age:"32",
       profession:"Wicket Keeper",
       jerseyNo: "16",
@@ -328,6 +344,7 @@ export const ENGLAND = [
     {
       id:"PAK5",
       Name: "Imam-ul-Haq",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352420/imam-ul-haq.jpg",
       Age:"29",
       profession:"Batter",
       jerseyNo: "26",
@@ -336,6 +353,7 @@ export const ENGLAND = [
     {
       id:"PAK6",
       Name: "Haris Rauf",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352427/haris-rauf.jpg",
       Age:"31",
       profession:"Bowler",
       jerseyNo: "97",
@@ -344,6 +362,7 @@ export const ENGLAND = [
     {
       id:"PAK7",
       Name: "Fakhar Zaman",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352419/fakhar-zaman.jpg",
       Age:"34",
       profession:"Batter",
       jerseyNo: "39",
@@ -352,6 +371,7 @@ export const ENGLAND = [
     {
       id:"PAK8",
       Name: "Mohammad Nawaz",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352425/mohammad-nawaz.jpg",
       Age:"30",
       profession:"All Rounder",
       jerseyNo: "28",
@@ -360,6 +380,7 @@ export const ENGLAND = [
     {
       id:"PAK9",
       Name: "Naseem Shah",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244958/naseem-shah.jpg",
       Age:"21",
       profession:"Bowler",
       jerseyNo: "71",
@@ -368,6 +389,7 @@ export const ENGLAND = [
     {
       id:"PAK10",
       Name: "Hasan Ali",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352428/hasan-ali.jpg",
       Age:"31",
       profession:"Bowler",
       jerseyNo: "32",
@@ -376,6 +398,7 @@ export const ENGLAND = [
     {
       id:"PAK11",
       Name: "Sarfaraz Ahmed",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170787/sarfaraz-ahmed.jpg",
       Age:"37",
       profession:"Wicket Keeper",
       jerseyNo: "54",
@@ -387,6 +410,7 @@ export const ENGLAND = [
     {
       id:"WI1",
       Name: "Jason Holder",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
       Age:"32",
       profession:"All Rounder",
       jerseyNo: "98",
@@ -395,6 +419,7 @@ export const ENGLAND = [
     {
       id:"WI2",
       Name: "Nicholas Pooran",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
       Age:"28",
       profession:"Wicket Keeper",
       jerseyNo: "29",
@@ -403,6 +428,7 @@ export const ENGLAND = [
     {
       id:"WI3",
       Name: "Shimron Hetmyer",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
       Age:"27",
       profession:"Batter",
       jerseyNo: "99",
@@ -411,6 +437,7 @@ export const ENGLAND = [
     {
       id:"WI4",
       Name: "Alzarri Joseph",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244661/alzarri-joseph.jpg",
       Age:"30",
       profession:"Bowler",
       jerseyNo: "40",
@@ -419,6 +446,7 @@ export const ENGLAND = [
     {
       id:"WI5",
       Name: "Shai Hope",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170814/shai-hope.jpg",
       Age:"30",
       profession:"Batter",
       jerseyNo: "45",
@@ -427,6 +455,7 @@ export const ENGLAND = [
     {
       id:"WI6",
       Name: "Keemo Paul",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c157866/keemo-paul.jpg",
       Age:"27",
       profession:"All Rounder",
       jerseyNo: "55",
@@ -435,6 +464,7 @@ export const ENGLAND = [
     {
       id:"WI7",
       Name: "Rovman Powell",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244832/rovman-powell.jpg",
       Age:"30",
       profession:"All Rounder",
       jerseyNo: "44",
@@ -443,6 +473,7 @@ export const ENGLAND = [
     {
       id:"WI8",
       Name: "Akeal Hosein",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244660/akeal-hosein.jpg",
       Age:"30",
       profession:"Bowler",
       jerseyNo: "50",
@@ -451,6 +482,7 @@ export const ENGLAND = [
     {
       id:"WI9",
       Name: "Kyle Mayers",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244721/kyle-mayers.jpg",
       Age:"31",
       profession:"All Rounder",
       jerseyNo: "48",
@@ -459,6 +491,7 @@ export const ENGLAND = [
     {
       id:"WI10",
       Name: "Oshane Thomas",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244721/kyle-mayers.jpg",
       Age:"28",
       profession:"Bowler",
       jerseyNo: "72",
@@ -467,6 +500,7 @@ export const ENGLAND = [
     {
       id:"WI11",
       Name: "Brandon King",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244662/brandon-king.jpg",
       Age:"29",
       profession:"Batter",
       jerseyNo: "23",
@@ -478,6 +512,7 @@ export const ENGLAND = [
     {
       id:"SL1",
       Name: "Dimuth Karunaratne",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351881/dimuth-karunaratne.jpg",
       Age:"36",
       profession:"Batter",
       jerseyNo: "64",
@@ -486,6 +521,7 @@ export const ENGLAND = [
     {
       id:"SL2",
       Name: "Wanindu Hasaranga",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351881/dimuth-karunaratne.jpg",
       Age:"29",
       profession:"All Rounder",
       jerseyNo: "21",
@@ -494,6 +530,7 @@ export const ENGLAND = [
     {
       id:"SL3",
       Name: "Kusal Mendis",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351885/kusal-mendis.jpg",
       Age:"31",
       profession:"Wicket Keeper",
       jerseyNo: "78",
@@ -502,6 +539,7 @@ export const ENGLAND = [
     {
       id:"SL4",
       Name: "Dushmantha Chameera",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244665/dushmantha-chameera.jpg",
       Age:"30",
       profession:"Bowler",
       jerseyNo: "23",
@@ -510,6 +548,7 @@ export const ENGLAND = [
     {
       id:"SL5",
       Name: "Pathum Nissanka",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351885/kusal-mendis.jpg",
       Age:"26",
       profession:"Batter",
       jerseyNo: "72",
@@ -518,6 +557,7 @@ export const ENGLAND = [
     {
       id:"SL6",
       Name: "Angelo Mathews",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170706/angelo-mathews.jpg",
       Age:"37",
       profession:"All Rounder",
       jerseyNo: "15",
@@ -526,6 +566,7 @@ export const ENGLAND = [
     {
       id:"SL7",
       Name: "Maheesh Theekshana",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351936/maheesh-theekshana.jpg",
       Age:"28",
       profession:"Bowler",
       jerseyNo: "99",
@@ -534,6 +575,7 @@ export const ENGLAND = [
     {
       id:"SL8",
       Name: "Lahiru Kumara",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351936/maheesh-theekshana.jpg",
       Age:"27",
       profession:"Bowler",
       jerseyNo: "19",
@@ -542,6 +584,7 @@ export const ENGLAND = [
     {
       id:"SL9",
       Name: "Charith Asalanka",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351873/charith-asalanka.jpg",
       Age:"26",
       profession:"All Rounder",
       jerseyNo: "60",
@@ -550,6 +593,7 @@ export const ENGLAND = [
     {
       id:"SL10",
       Name: "Niroshan Dickwella",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c146429/niroshan-dickwella.jpg",
       Age:"30",
       profession:"Wicket Keeper",
       jerseyNo: "51",
@@ -558,6 +602,7 @@ export const ENGLAND = [
     {
       id:"SL11",
       Name: "Kasun Rajitha",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351884/kasun-rajitha.jpg",
       Age:"31",
       profession:"Bowler",
       jerseyNo: "8",
@@ -569,6 +614,7 @@ export const ENGLAND = [
     {
       id:"NZ1",
       Name: "Kane Williamson",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351812/kane-williamson.jpg",
       Age:"34",
       profession:"Batter",
       jerseyNo: "22",
@@ -577,6 +623,7 @@ export const ENGLAND = [
     {
       id:"NZ2",
       Name: "Trent Boult",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351612/trent-boult.jpg",
       Age:"34",
       profession:"Bowler",
       jerseyNo: "18",
@@ -585,6 +632,7 @@ export const ENGLAND = [
     {
       id:"NZ3",
       Name: "Devon Conway",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351799/devon-conway.jpg",
       Age:"33",
       profession:"Batter",
       jerseyNo: "88",
@@ -593,6 +641,7 @@ export const ENGLAND = [
     {
       id:"NZ4",
       Name: "Tim Southee",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351799/devon-conway.jpg",
       Age:"35",
       profession:"Bowler",
       jerseyNo: "38",
@@ -601,6 +650,7 @@ export const ENGLAND = [
     {
       id:"NZ5",
       Name: "Tom Latham",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351611/tom-latham.jpg",
       Age:"32",
       profession:"Wicket Keeper",
       jerseyNo: "48",
@@ -609,6 +659,7 @@ export const ENGLAND = [
     {
       id:"NZ6",
       Name: "Daryl Mitchell",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351601/daryl-mitchell.jpg",
       Age:"32",
       profession:"All Rounder",
       jerseyNo: "67",
@@ -617,6 +668,7 @@ export const ENGLAND = [
     {
       id:"NZ7",
       Name: "Glenn Phillips",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351798/glenn-phillips.jpg",
       Age:"27",
       profession:"Batter",
       jerseyNo: "23",
@@ -625,6 +677,7 @@ export const ENGLAND = [
     {
       id:"NZ8",
       Name: "Ish Sodhi",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351602/ish-sodhi.jpg",
       Age:"31",
       profession:"Bowler",
       jerseyNo: "61",
@@ -633,6 +686,7 @@ export const ENGLAND = [
     {
       id:"NZ9",
       Name: "Lockie Ferguson",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351814/lockie-ferguson.jpg",
       Age:"32",
       profession:"Bowler",
       jerseyNo: "69",
@@ -641,6 +695,7 @@ export const ENGLAND = [
     {
       id:"NZ10",
       Name: "Mitchell Santner",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351608/mitchell-santner.jpg",
       Age:"31",
       profession:"All Rounder",
       jerseyNo: "74",
@@ -649,6 +704,7 @@ export const ENGLAND = [
     {
       id:"NZ11",
       Name: "Mark Chapman",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351807/mark-chapman.jpg",
       Age:"30",
       profession:"Batter",
       jerseyNo: "43",

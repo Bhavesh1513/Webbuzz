@@ -7,6 +7,7 @@ import Teams from './pages/Teams'
 import Registration from './pages/Registration'
 import Login from './pages/Login'
 import UpcomingMatchesPage from './pages/UpcomingMatchesPage'
+import Franchise from './pages/Franchise'
 const App = () => {
   return (
     <div className=' w-[100%]'>
@@ -18,6 +19,7 @@ const App = () => {
         {/* <Route path='/teams/:teamName' element={<TeamDetails />} /> */}
         <Route path='/registration' element={<Registration />} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/ipl' element={<Franchise/>} />
       </Routes>
     </div>
   )

@@ -39,23 +39,43 @@ const Cards = () => {
 
     return (
         <div className='mt-10 w-11/12'>
-            <div className='flex flex-row flex-wrap gap-7 justify-center '>
-                {
-                    COUNTRY_LOGO.map((item) => (
-                        <button key={item.id} onClick={() => setCountry(item.Name)} className='' >
-                            <div className='w-64 h-64'>
-                                <img className='rounded-full w-full h-full object-cover shadow-2xl' src={item.image} alt="logo" />
-                            </div>
-                            <div className='text-3xl font-bold'>{item.Name}</div>
-                            <div className='text-2xl font-semibold' >Cricket Board: {item.CrickerBoard}</div>
-                        </button>
-                    ))
-                }
-            </div>
+          <div className='flex flex-row flex-wrap gap-7 justify-center'>
+  {
+    COUNTRY_LOGO.map((item) => (
+      <button
+        key={item.id}
+        onClick={() => setCountry(item.Name)}
+        className={`relative pb-2 ${
+          country === item.Name ? 'border-b-4 border-white' : 'border-b-2 border-transparent'
+        }`}
+      >
+        {/* Image: Only visible on screens larger than 768px */}
+        <div className='w-64 h-64 hidden md:block'>
+          <img className='rounded-full w-full h-full object-cover shadow-2xl' src={item.image} alt="logo" />
+        </div>
+
+        {/* Country Name: Visible only on screens ≤768px, styled as a circular button */}
+        <div className='w-24 h-24 md:hidden rounded-full flex justify-center items-center bg-white text-gray-800'>
+          <div className='text-3xl font-bold'>{item.Name}</div>
+        </div>
+
+        {/* Cricket Board Info: Hidden for screens ≤768px */}
+        <div className='text-2xl font-semibold flex flex-col hidden md:block'>
+          <div className=''>{item.Name}</div>
+          <div>Cricket Board: {item.CrickerBoard}</div>
+        </div>
+      </button>
+    ))
+  }
+</div>
+
+
 
             <div className='flex flex-wrap gap-8 mt-5 p-5 justify-center items-center'>
                 {team.map((player) => (
-                    <div key={player.id} className='rounded-3xl bg-[#212023] text-richwhite-4 p-4 w-96 h-96 flex flex-col items-center shadow-white-custom card-container'>
+                    <div key={player.id} className='rounded-3xl bg-[#212023] text-richwhite-4 p-4 w-96 h-96 flex flex-col items-center shadow-white-custom card-container'
+                    data-aos="flip-up"
+                    >
                         <div className='card-overlay'></div>
                         <div className='jersey-number text-9xl font-bold'>
                             {player.jerseyNo}

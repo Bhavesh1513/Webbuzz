@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { oct, Nov, Jan, Feb, Mar, May, Jun, Sep } from '../data/upcomingMatches'; 
+import { oct, Nov, Jan, Feb, Mar, May, Jun, Sep } from '../data/upcomingMatches';
+import { useNavigate } from "react-router-dom";
+import ScrollTopButton from "../components/Utils/ScrollTopButton";
 
 const matchesData = [
     ...oct,
@@ -33,8 +35,17 @@ const MatchList = () => {
         return match.date.startsWith(monthMap[selectedMonth]);
     });
 
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate("/");
+    }
+
+
     return (
         <div className="h-[100%] p-8 w-11/12 mx-auto">
+            <button className="px-10 text-xl py-2 text-white mt-10  ml-10 btn-pink font-semibold bg-[#0000ff] " id="btn-top" onClick={handleNavigate} >
+                Back To Main Menu
+            </button>
 
             <div className=" mx-auto  rounded-lg p-6">
                 <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
@@ -61,11 +72,13 @@ const MatchList = () => {
                             <h3 className="text-xl font-semibold text-blue-700">
                                 {match.match}
                             </h3>
-                            <p className="text-gray-600 mt-2">{match.date}</p>
+
+                            <p className="text-gray-600 mt-2 ">{match.date}</p>
                         </div>
                     ))}
                 </div>
             </div>
+            <ScrollTopButton />
         </div>
     );
 };

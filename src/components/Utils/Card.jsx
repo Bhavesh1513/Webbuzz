@@ -3,7 +3,9 @@ import '../../Util.css';
 
 const Card = ({ id, image, country, winningYears }) => {
   return (
-    <div className='flex flex-col items-center rounded-2xl border-2 p-4 w-96 text-black bg-richwhite-4 shadow-rays'>
+    <div className='flex flex-col items-center rounded-2xl border-2 p-4 w-96 text-black bg-richwhite-4 shadow-rays'
+    data-aos="flip-up"
+    >
       <div className='w-64 h-64'> {/* Fixed size for image container */}
         <img
           className='rounded-full w-full h-full object-cover shadow-2xl'

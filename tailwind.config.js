@@ -25,7 +25,7 @@ module.exports = {
           4:"#eaecee",
           5:"#eaecee",
         }
-      }
+      },
     },
   },
   plugins: [],
