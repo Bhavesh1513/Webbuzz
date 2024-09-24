@@ -182,7 +182,7 @@ const Signup = () => {
               <label className="text-richblack-900 font-semibold text-3xl">Alternate Phone:</label>
               <input
                 className="outline-none border-b-2 border-[#0000ff] text-2xl"
-                type="text"
+                type="number"
                 value={formData.contact.alternatePhone}
                 onChange={(e) => handleInputChange("contact", "alternatePhone", e.target.value)}
                 placeholder="Enter an alternate phone number"
