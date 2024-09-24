@@ -82,6 +82,26 @@ Contributions are welcome! If you'd like to contribute to WebBuzz, please follow
 
 Please ensure your code adheres to our coding standards and includes appropriate documentation where necessary.
 
+## Project Screenshot
+ 
+![lp1](https://github.com/user-attachments/assets/2ee56a3b-c34a-4872-9ea9-2ab6c8dc4b09)
+
+![lp2](https://github.com/user-attachments/assets/4e3126eb-fb2c-4fa8-b690-6d0a4e2f23c1)
+
+![ipl1](https://github.com/user-attachments/assets/e6ea1415-5d2c-4016-8a87-de0fe7148c99)
+
+![su1](https://github.com/user-attachments/assets/1b79a339-dec7-47e7-81c7-d31adde47a63)
+
+![l1](https://github.com/user-attachments/assets/4e4a5248-168f-4cfc-a795-ba9107ddd56f)
+
+![um1](https://github.com/user-attachments/assets/1eae6e78-21f9-4d5d-8d35-1a3c3a45503a)
+
+![mbl-1](https://github.com/user-attachments/assets/cd916fa3-68a5-4b96-a00b-1f5b7cb2c389)
+
+![hm-1](https://github.com/user-attachments/assets/ff9a1cb0-3ae2-4546-a00e-c8187dd38a00)
+
+![mbt-1](https://github.com/user-attachments/assets/3dade117-b344-41f8-92e1-8dc98d1f3332)
+
 ---
 
 **Enjoy exploring WebBuzz!**
