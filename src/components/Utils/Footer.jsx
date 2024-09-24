@@ -5,13 +5,13 @@ import { FaLinkedin,FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 p-10 text-black border-b-8 border-[#0000ff] mt-16">
+    <footer className="bg-gray-100 p-10 text-black border-b-8 border-[#FF6600] mt-16">
       {/* Upper section of footer */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
         {/* Left section with Logo and Contact Info */}
         <div className="flex flex-col space-y-4">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-[#0000ff] rounded-full"></div> {/* Replace this with your logo */}
+            <div className="w-10 h-10 bg-[#FF6600] rounded-full"></div> {/* Replace this with your logo */}
             <h2 className="text-xl font-bold">WebBuzz</h2>
           </div>
           <div className='text-xl'>
@@ -29,7 +29,7 @@ const Footer = () => {
              style={{ textDecoration: 'none', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center',}}
               to="https://www.linkedin.com/in/bhavesh-chaudhari-388824256/"
             >
-            <FaLinkedin fontSize={20} />
+            <FaLinkedin fontSize={20} color='#0000ff'/>
             </NavLink>
             </div>
             <div className='w-[100%] h-[100%]' >
@@ -37,7 +37,7 @@ const Footer = () => {
              style={{ textDecoration: 'none', height: '100%', width:'100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}
               to="https://github.com/Bhavesh1513"
             >
-            <FaGithub fontSize={20}/>
+            <FaGithub fontSize={20} color='black'/>
             </NavLink>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className='bg-[#0000ff] h-1  mb-6 w-[100%]'></div>
+      <div className='bg-[#FF6600] h-1  mb-6 w-[100%]'></div>
       {/* <hr className=" border-[#0000ff]  mb-6" /> */}
 
       {/* Bottom Section with Platforms */}
@@ -54,8 +54,8 @@ const Footer = () => {
         <div className="flex mr-10  e">
         <NavLink
   data-id="1"
-  className="text-white bg-black py-2 px-20 rounded-full hover:border-[#0000ff] text-2xl font-semibold hover:bg-white hover:text-black hover: border-2 "
-  to="/aboutus"
+  className="text-white bg-black py-2 px-20 rounded-full hover:border-[#FF6600] text-2xl font-semibold hover:bg-white hover:text-black hover: border-2 "
+  to="/ipl"
 >
   IPL
 </NavLink>

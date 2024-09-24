@@ -49,17 +49,14 @@ const Cards = () => {
           country === item.Name ? 'border-b-4 border-white' : 'border-b-2 border-transparent'
         }`}
       >
-        {/* Image: Only visible on screens larger than 768px */}
         <div className='w-64 h-64 hidden md:block'>
           <img className='rounded-full w-full h-full object-cover shadow-2xl' src={item.image} alt="logo" />
         </div>
 
-        {/* Country Name: Visible only on screens ≤768px, styled as a circular button */}
         <div className='w-24 h-24 md:hidden rounded-full flex justify-center items-center bg-white text-gray-800'>
           <div className='text-3xl font-bold'>{item.Name}</div>
         </div>
 
-        {/* Cricket Board Info: Hidden for screens ≤768px */}
         <div className='text-2xl font-semibold flex flex-col hidden md:block'>
           <div className=''>{item.Name}</div>
           <div>Cricket Board: {item.CrickerBoard}</div>
@@ -74,7 +71,7 @@ const Cards = () => {
             <div className='flex flex-wrap gap-8 mt-5 p-5 justify-center items-center'>
                 {team.map((player) => (
                     <div key={player.id} className='rounded-3xl bg-[#212023] text-richwhite-4 p-4 w-96 h-96 flex flex-col items-center shadow-white-custom card-container'
-                    data-aos="flip-up"
+                   
                     >
                         <div className='card-overlay'></div>
                         <div className='jersey-number text-9xl font-bold'>
@@ -87,10 +84,10 @@ const Cards = () => {
                             <h3 className='font-bold'>{player.Name}</h3>
                             <p>Age: {player.Age}</p>
                             <div className='flex flex-row justify-center items-center gap-2'>
-                                <div>Profession:</div>
+                                <div>Role:</div>
                                 <div>{player.profession}</div>
                             </div>
-                            <p>Jersey No: {player.jerseyNo}</p>
+                            <p>Jersey No.: {player.jerseyNo}</p>
                         </div>
                     </div>
                 ))}

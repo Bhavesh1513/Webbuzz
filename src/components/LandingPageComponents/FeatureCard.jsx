@@ -3,7 +3,7 @@ import React from 'react';
 const FeatureCard = ({ isLeft, data }) => {
   return (
     <div
-      className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'} bg-[#0000ff] shadow-md rounded-md overflow-hidden`}
+      className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'} bg-primary-color shadow-md rounded-md overflow-hidden`}
     >
       {/* Left section */}
       <div className='p-8'>
@@ -15,11 +15,11 @@ const FeatureCard = ({ isLeft, data }) => {
       </div>
 
       {/* Image section */}
-      <div className='flex items-center justify-center bg-blue-500 w-[800px] h-[220px]'>
+      <div className='flex items-center justify-center bg-blue-500 w-[800px] h-[220px] rounded-md'>
         <img
           src={data?.image}
           alt=""
-          className='w-full h-full object-cover'
+          className='object-cover rounded-md'
         />
       </div>
     </div>

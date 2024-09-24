@@ -16,7 +16,6 @@ const App = () => {
         <Route path='/upcomingmatches' element={<UpcomingMatchesPage/>}  />
         <Route path='/champions' element={<Champions/>}  />
         <Route path='/teams' element={<Teams/>}  />
-        {/* <Route path='/teams/:teamName' element={<TeamDetails />} /> */}
         <Route path='/registration' element={<Registration />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/ipl' element={<Franchise/>} />

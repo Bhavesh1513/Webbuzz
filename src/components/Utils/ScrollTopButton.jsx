@@ -34,7 +34,7 @@ const ScrollTopButton = () => {
         <div className="fixed bottom-8 right-8">
           <button
             onClick={scrollToTop}
-            className="p-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-800 transition"
+            className="p-3 bg-[#FF6600] text-white rounded-full shadow-lg transition duration-300 hover:bg-[#ffa365]"
             aria-label="Scroll to Top"
           >
             <FaArrowUp size={20} />

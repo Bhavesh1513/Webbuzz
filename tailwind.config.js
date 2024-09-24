@@ -26,6 +26,9 @@ module.exports = {
           5:"#eaecee",
         }
       },
+      boxShadow: {
+        'white-spread': '0 4px 15px 8px rgba(255, 255, 255, 0.5)', // Customize spread (last value is spread radius)
+      },
     },
   },
   plugins: [],

@@ -1,17 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css'
-import logo from './../assets/CricketManLogo.jpg'
+import './Navbar.css';
+import logo from './../assets/CricketManLogo3.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null); // Reference for the menu
+  const buttonRef = useRef(null); // Reference for the toggle button
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  // Close menu when clicking outside of it
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if the click is outside the menu and the button
+      if (
+        menuRef.current && 
+        !menuRef.current.contains(event.target) && 
+        buttonRef.current && 
+        !buttonRef.current.contains(event.target)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className='text-white  w-11/12 py-5 mx-auto text-3xl font-semibold border-b-2 flex justify-between items-center'>
+    <div className='text-white w-11/12 py-5 mx-auto text-3xl font-semibold border-b-2 flex justify-between items-center'>
       {/* Logo */}
       <div className='h-[100%] nav-link rounded-[50%]'>
         <NavLink
@@ -22,10 +44,9 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-
       {/* Hamburger Icon for <= 768px */}
       <div className='md:hidden'>
-        <button onClick={toggleMenu} className='text-4xl'>
+        <button ref={buttonRef} onClick={toggleMenu} className='text-4xl'>
           {isOpen ? '✖' : '☰'} {/* Switch between Hamburger and Cross Icon */}
         </button>
       </div>
@@ -84,6 +105,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
+          ref={menuRef} // Reference for detecting outside clicks
           className={`absolute top-[93px] right-0 bg-white text-black flex flex-col gap-4 text-3xl z-10 w-full border-none pl-10 transition-transform duration-500 ease-in-out ${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-[-100%] opacity-0'} `}
         >
           <NavLink

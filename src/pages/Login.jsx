@@ -9,10 +9,19 @@ const Login = () => {
 
   const handleLogin = async () => {
     const storedCredentials = JSON.parse(localStorage.getItem("userCredentials"));
+    const dummyData={
+      email:'test@gmail.com',
+      pass:'12345',
+    }
+
+    if(dummyData.email === email && dummyData.pass === password){
+      toast.success("You're logged in as a guest");
+      navigate("/upcomingmatches");
+      return;
+    }
 
     if (storedCredentials) {
       const { email: storedEmail, password: storedPassword } = storedCredentials;
-
       if (storedEmail === email && storedPassword === password) {
         navigate("/upcomingmatches");
       } 
@@ -22,7 +31,6 @@ const Login = () => {
     } 
     else {
       toast.error("No user found. Please sign up first.");
-      
     }
   };
   const handleNavigate = () => {
@@ -57,13 +65,13 @@ const Login = () => {
 
         <div className="flex flex-col gap-5">
         <button
-          className="bg-[#0000ff] text-xl text-richwhite-1 py-2 px-8 rounded-md transition duration-300 hover:bg-blue-700 w-full btn-pink"
+          className="bg-[#FF6600] text-xl text-richwhite-1 py-2 px-8 rounded-md transition duration-300 hover:bg-[#ca763e] w-full "
           onClick={handleLogin}
         >
           Login
         </button>
 
-        <button className="bg-[#0000ff] text-xl text-richwhite-1 py-2 px-8 rounded-md transition duration-300 hover:bg-blue-700 w-full btn-pink" onClick={handleNavigate} >
+        <button className="bg-[#FF6600] text-xl text-richwhite-1 py-2 px-8 rounded-md transition duration-300 hover:bg-[#ffa365] w-full " onClick={handleNavigate} >
         Back
       </button>
       </div>

@@ -76,7 +76,7 @@ export const INDIA = [
     Name: "Hardik Pandya",
     image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352482/hardik-pandya.jpg",
     Age:"30",
-    profession:"ALL ROunder",
+    profession:"ALL Rounder",
     jerseyNo: "43",
     country:"IND"
   },
@@ -106,7 +106,7 @@ export const ENGLAND = [
       Name: "Ben Stokes",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351568/ben-stokes.jpg",
       Age:"37",
-      profession:"AllRounder",
+      profession:"All Rounder",
       jerseyNo: "55",
       country:"ENG"
     },
@@ -419,7 +419,7 @@ export const ENGLAND = [
     {
       id:"WI2",
       Name: "Nicholas Pooran",
-      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244722/nicholas-pooran.jpg",
       Age:"28",
       profession:"Wicket Keeper",
       jerseyNo: "29",
@@ -428,7 +428,7 @@ export const ENGLAND = [
     {
       id:"WI3",
       Name: "Shimron Hetmyer",
-      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c171232/shimron-hetmyer.jpg",
       Age:"27",
       profession:"Batter",
       jerseyNo: "99",
@@ -521,7 +521,7 @@ export const ENGLAND = [
     {
       id:"SL2",
       Name: "Wanindu Hasaranga",
-      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351881/dimuth-karunaratne.jpg",
+      image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244676/wanindu-hasaranga.jpg",
       Age:"29",
       profession:"All Rounder",
       jerseyNo: "21",

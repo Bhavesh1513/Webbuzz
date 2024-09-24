@@ -9,7 +9,7 @@ import IntroText from '../components/LandingPageComponents/IntroText'
 
 const LandingPage = () => {
   return (
-    <div className='text-white bg-gradient-to-r from-[#041a30] from-60% via-[#021d3b] via-30% to-[#161b40] to-10% h-[100%]'>
+    <div className='text-white bg-gradient-to-r from-[#041a30] from-60% via-[#021d3b] via-30% to-[#161b40] to-10% h-[100%] '>
         <Navbar/>
         <IntroText/>
       <ImageSlider/>

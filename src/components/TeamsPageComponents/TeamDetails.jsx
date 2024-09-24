@@ -5,7 +5,6 @@ import { INDIA, ENGLAND, AUSTRALIA, PAKISTAN, WEST_INDIES, SRI_LANKA, NEW_ZEALAN
 const TeamDetails = () => {
   const { teamName } = useParams();
 
-  // Map the team names to their respective data
   const teams = {
     india: INDIA,
     england: ENGLAND,
@@ -27,7 +26,7 @@ const TeamDetails = () => {
             <h3 className='text-xl font-bold'>{player.Name}</h3>
             <p>Age: {player.Age}</p>
             <p>Profession: {player.profession}</p>
-            <p>Jersey No: {player.jerseyNo}</p>
+            <p>Jersey No.: {player.jerseyNo}</p>
           </div>
         ))}
       </div>

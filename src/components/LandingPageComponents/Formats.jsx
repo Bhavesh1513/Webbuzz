@@ -49,7 +49,7 @@ const Formats = () => {
   }, []);
 
   return (
-    <div className='w-full flex flex-col gap-20 pt-20 overflow-x-hidden'>
+    <div className='w-11/12 flex flex-col gap-20 pt-20 overflow-x-hidden'>
       <div className='flex flex-col justify-center items-center gap-6'>
         <p className='font-semibold text-4xl lg:text-6xl text-white text-center'>
         Discover the Thrill of Every Format
@@ -59,12 +59,12 @@ const Formats = () => {
           <div className='bg-white w-1 h-1'></div>
         </div>
       </div>
-      <div className='flex flex-col gap-16'>
+      <div className='flex flex-col gap-16 mb-5'>
         {data.map((item, index) => (
           <div
             key={index}
             data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
-            className={`w-full lg:w-2/3 mx-auto h-full ${index % 2 !== 0 ? 'self-end' : ''} mx-0 `}
+            className={`w-full lg:w-2/3 mx-auto h-full ${index % 2 !== 0 ? 'self-end' : ''} mx-0 shadow-white-spread rounded-md`}
           >
             <FeatureCard isLeft={index % 2 === 0} index={index} data={data[index]} />
           </div>

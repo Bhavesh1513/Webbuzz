@@ -274,11 +274,11 @@ const Signup = () => {
       {!complete && (
         <div className="navigation-buttons text-3xl font-semibold  text-richwhite-1 ">
           {currentStep > 1 ? (
-            <button className="bg-[#0000ff] shadow-2 px-10 py-3 md:btn-pink"  onClick={() => setCurrentStep((prev) => prev - 1)}>Prev</button>
+            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]"  onClick={() => setCurrentStep((prev) => prev - 1)}>Prev</button>
           ) : (
-            <button className="bg-[#0000ff] shadow-2 px-10 py-3 md:btn-pink"  onClick={handleNavigate}>Already have an account? Login</button>
+            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]"  onClick={handleNavigate}>Already have an account? Login</button>
           )}
-          <button className="bg-[#0000ff] shadow-3 px-10 md:btn-pink" onClick={() => (currentStep === 4 ? handleSubmit() : handleNext())}>
+          <button className="bg-[#FF6600] shadow-3 px-10 rounded-xl transition duration-300 hover:bg-[#ffa365]" onClick={() => (currentStep === 4 ? handleSubmit() : handleNext())}>
             {currentStep === 4 ? "Submit" : "Next"}
           </button>
         </div>
