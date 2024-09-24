@@ -23,7 +23,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/Bhavesh1513/Webbuzz.git>
     ```
 
 2. **Navigate to the project directory**:
@@ -51,7 +51,7 @@ To set up the project locally, follow these steps:
 Once the application is up and running, you can explore the following features:
 
 - **Multi-stage Form**: Users can progress through a form in multiple steps, allowing for organized data collection.
-- **IPL Page**: View statistics of IPL teams, including the number of trophies each team has won.
+- **IPL Page**: User can view IPL teams, including the number of trophies each team has won.
 - **Login and Signup**: Users can create accounts or log in to access personalized features.
 - **Champions Section**: View the list of past winners in both the ODI and T20 cricket formats, showcasing the champions of world cricket.
 
