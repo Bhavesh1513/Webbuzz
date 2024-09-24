@@ -1,13 +1,12 @@
 import React from 'react';
-import './FranchiseCard.css'; // Import CSS for styling
+import './FranchiseCard.css';
 
 const FranchiseCard = ({ team }) => {
     return (
         <div className="card w-[296px] h-[290px] flex flex-col justify-center items-center rounded-l-2xl " style={{ boxShadow: 'rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px' }} >
-            {/* Before Hover */}
             <div className="card-before-hover  w-[100%] h-[100%] flex flex-col justify-center items-center" style={{ backgroundColor: team.textsectionBackgroundColorBeforeHover }}>
                 <div className='w-[100%] h-[80%] flex justify-center items-center rounded-b-[45%]' style={{ backgroundColor: team.imageBakcGroundBeforeHover }}>
-                    <img  src={team.imageBeforeHover} alt={team.name} className="team-logo w-[120px] h-[120px]" />
+                    <img src={team.imageBeforeHover} alt={team.name} className="team-logo w-[120px] h-[120px]" />
                 </div>
                 <div className='w-[100%] h-[20%] flex justify-center items-center text-3xl text-white font-semibold' style={{ backgroundColor: team.textsectionBackgroundColorBeforeHover }}>
                     <h2 >{team.name}</h2>

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Make sure the container takes the full width */
-  padding: 0 1rem; /* Optional padding for better spacing */
+  width: 100%;
+  padding: 0 1rem;
 }
 
 .step-item {
@@ -12,8 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1; /* Allow the step item to stretch evenly */
-  text-align: center; /* Align text centrally */
+  flex: 1;
+  text-align: center;
 }
 
 .step-item:not(:first-child):before {
@@ -44,11 +44,11 @@
 }
 
 .active .step {
-  background-color: #0284c7; /* Active step color */
+  background-color: #0284c7;
 }
 
 .complete .step {
-  background-color: #16a34a; /* Completed step color */
+  background-color: #16a34a;
 }
 
 .complete p {
@@ -59,17 +59,16 @@
 
 .complete:not(:first-child):before,
 .active:not(:first-child):before {
-  background-color: #16a34a; /* Completed step line color */
+  background-color: #16a34a;
 }
 
 .step-item.active:before {
-  background-color: #16a34a; /* Active step line color */
+  background-color: #16a34a;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .step-item {
-    width: auto; /* Let it scale automatically */
+    width: auto;
   }
 
   .step {

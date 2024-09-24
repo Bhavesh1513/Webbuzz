@@ -19,7 +19,7 @@ const Cards = () => {
                     border={format === "ODI" ? "border-4 border-[#CC5500]" : "border-2 border-transparent"}
                 />
                 <Button width={"w-52"} text={"T20"} fontSize={"text-5xl"} fontWeight="font-semibold" borderRadius="rounded-2xl" textColor="text-[#CC5500]" onClick={() => setFormat("T20")}
-                    border={format === "T20" ? "border-4 border-[#CC5500]" : "border-2 border-transparent"} 
+                    border={format === "T20" ? "border-4 border-[#CC5500]" : "border-2 border-transparent"}
                 />
             </div>
             <div className='flex h-full gap-10 w-[100%] px-10 flex-wrap py-10 justify-center'>

@@ -6,10 +6,10 @@ const Teams = () => {
   return (
     <div className='text-white bg-gradient-to-r from-blue-500 to-indigo-600
  h-[100%] flex flex-col items-center'>
-    <Navbar/>
-    <Cards/>
-    <ScrollTopButton/>
-</div>
+      <Navbar />
+      <Cards />
+      <ScrollTopButton />
+    </div>
   )
 }
 

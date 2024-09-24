@@ -18,19 +18,19 @@ const ImageSlider = () => {
             setCurrentIndex((prevIndex) =>
                 prevIndex === images.length - 1 ? 0 : prevIndex + 1
             );
-        }, 800); // Change image every 3 seconds
+        }, 800);
 
-        return () => clearInterval(interval); // Clear interval on component unmount
+        return () => clearInterval(interval);
     }, []);
 
     return (
         <div className="mt-64 text-center pb-5 mx-10 ">
             <div className="flex flex-col gap-5">
-            <div className="font-semibold text-4xl lg:text-6xl text-white text-center">Discover Stunning Views Experience Every Angle with Dynamic Slides</div>
-            <div className='flex flex-row justify-center items-center gap-3'>
-                <div className='bg-white w-16 h-1'></div>
-                <div className='bg-white w-1 h-1'></div>
-            </div>
+                <div className="font-semibold text-4xl lg:text-6xl text-white text-center">Discover Stunning Views Experience Every Angle with Dynamic Slides</div>
+                <div className='flex flex-row justify-center items-center gap-3'>
+                    <div className='bg-white w-16 h-1'></div>
+                    <div className='bg-white w-1 h-1'></div>
+                </div>
             </div>
 
             <div className="slider border-2 mt-10 ">

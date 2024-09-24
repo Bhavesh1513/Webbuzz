@@ -15,8 +15,6 @@ const IntroText = () => {
         };
 
         window.addEventListener('resize', handleResize);
-
-        // Cleanup listener on component unmount
         return () => {
             window.removeEventListener('resize', handleResize);
         };
@@ -44,16 +42,16 @@ const IntroText = () => {
                 <div className='text-3xl leading-[2em] absolute top-[350px] left-[100px] 
                     md:top-[200px] md:left-[50px] sm:top-[150px] sm:left-[20px]'>
                     <span className='text-7xl font-semibold italic 
-                        md:text-5xl sm:text-4xl'> Welcome to the Cricket Arena! </span>
+                        md:text-6xl sm:text-4xl'> Welcome to the Cricket Arena! </span>
                     <div className='mt-4'>
-                        Where legends <span className='text-red-600 text-5xl font-semibold md:text-4xl sm:text-3xl'>clash</span>, 
-                        champions <span className='text-green-400 text-5xl font-semibold md:text-4xl sm:text-3xl'>rise</span>, and fans 
+                        Where legends <span className='text-red-600 text-5xl font-semibold md:text-4xl sm:text-3xl'>clash</span>,
+                        champions <span className='text-green-400 text-5xl font-semibold md:text-4xl sm:text-3xl'>rise</span>, and fans
                         <span className='text-fuchsia-700 text-5xl font-semibold md:text-4xl sm:text-3xl'>roar</span> with excitement.
                     </div>
                     <div className='mt-4'>
-                        Prepare for an exhilarating journey through the world of cricket, featuring 
+                        Prepare for an exhilarating journey through the world of cricket, featuring
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#F9F295] from-60% via-[#E0AA3E] via-30% to-[#B88A44] to-10% 
-                        @apply font-Oswald text-6xl font-bold md:text-5xl sm:text-4xl'>{text}</span>
+                        @apply font-Oswald text-6xl font-bold md:text-5xl sm:text-4xl'>{' ' + text}</span>
                     </div>
                     <div className='mt-4'>
                         Join us as we celebrate the spirit of the game, where every boundary, wicket, and run counts.
@@ -68,14 +66,14 @@ const IntroText = () => {
                 <div className='text-3xl leading-[2em]'>
                     <span className='text-7xl font-semibold italic'> Welcome to the Cricket Arena! </span>
                     <div>
-                      Where legends <span className='text-red-600 text-5xl font-semibold'>clash</span>, champions <span className='text-green-400 text-5xl font-semibold' >rise</span>, and fans <span className='text-fuchsia-700 text-5xl font-semibold'>roar</span>  with excitement.
-                    </div> 
-                    <div>
-                        Prepare for an exhilarating journey through the world of cricket, featuring <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#F9F295] from-60% via-[#E0AA3E] via-30% to-[#B88A44] to-10% @apply font-Oswald text-6xl font-bold'>{text}</span>
+                        Where legends <span className='text-red-600 text-5xl font-semibold'>clash</span>, champions <span className='text-green-400 text-5xl font-semibold' >rise</span>, and fans <span className='text-fuchsia-700 text-5xl font-semibold'>roar</span>  with excitement.
                     </div>
                     <div>
-                    Join us as we celebrate the spirit of the game, where every boundary, wicket, and run counts.
-                    Let the games begin!
+                        Prepare for an exhilarating journey through the world of cricket, featuring <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#F9F295] from-60% via-[#E0AA3E] via-30% to-[#B88A44] to-10% @apply font-Oswald text-6xl font-bold'>{' ' + text}</span>
+                    </div>
+                    <div>
+                        Join us as we celebrate the spirit of the game, where every boundary, wicket, and run counts.
+                        Let the games begin!
                     </div>
                 </div>
             </div>

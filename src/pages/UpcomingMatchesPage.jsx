@@ -44,19 +44,14 @@ const MatchList = () => {
 
     return (
 
-        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 h-[100vh] overflow-y-hidden">
+        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 h-[100vh] overflow-y-auto">
 
             <button className=" text-2xl text-white mt-10  ml-10 font-semibold bg-[#FF6600] rounded-[50%] p-[15px] transition duration-300 hover:bg-[#ffa365]" onClick={handleNavigate} >
                 <FaCircleArrowLeft fontSize={24} color='white' />
             </button>
 
             <div className="h-[100%] p-8 w-11/12 mx-auto">
-                {/* <button className="px-10 text-xl py-2 text-white mt-10  ml-10 btn-pink font-semibold bg-[#FF6600] " id="btn-top" onClick={handleNavigate} >
-                Back To Main Menu
-            </button> */}
-
-
-
+              
                 <div className=" mx-auto  rounded-lg p-6">
                     <h1 className="text-3xl font-bold text-center text-white mb-6">
                         Cricket Matches

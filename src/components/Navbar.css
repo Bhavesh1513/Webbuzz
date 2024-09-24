@@ -1,78 +1,73 @@
-.shadow{
-    -webkit-box-shadow: 0px 3px 3px 0px rgba(255,255,255,1);
--moz-box-shadow: 0px 3px 3px 0px rgba(255,255,255,1);
-box-shadow: 0px 3px 3px 0px rgba(255,255,255,1);
+.shadow {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 1);
 }
 
-.x{
-    border:2px solid red;
+.x {
+  border: 2px solid red;
 }
 
-/* Glowing text effect */
 .glowing-text {
-    font-size: 2rem; 
-    color: #FFD700; /* Golden color */
-    text-shadow: 
-      0 0 5px #FFD700,
-      0 0 10px #FFD700,
-      0 0 15px #FFD700,
-      0 0 20px #FFD700,
-      0 0 25px #FFD700,
-      0 0 30px #FFD700,
-      0 0 35px #FFD700;
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Border animation */
-  .glowing-border {
-    position: relative;
-    padding-inline: 10px;
-    border: 2px solid #FFD700;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .glowing-border::before {
-    content: '';
-    position: absolute;
-    top: -100%;
-    left: -100%;
-    width: 200%;
-    height: 200%;
-    border-radius: 50%;
-    background: linear-gradient(45deg, rgba(255,215,0,0.3) 25%, transparent 25%, transparent 75%, rgba(255,215,0,0.3) 75%, rgba(255,215,0,0.3) 100%);
-    background-size: 50% 50%;
-    animation: glowing-border 2s infinite linear;
-    z-index: 1;
-  }
-  
-  .glowing-border a {
-    position: relative;
-    z-index: 2;
-  }
-  
-  /* Border animation keyframes */
-  @keyframes glowing-border {
-    0% {
-      transform: translateX(-100%) translateY(-100%);
-    }
-    50% {
-      transform: translateX(100%) translateY(100%);
-    }
-    100% {
-      transform: translateX(-100%) translateY(-100%);
-    }
+  font-size: 2rem;
+  color: #FFD700;
+  text-shadow:
+    0 0 5px #FFD700,
+    0 0 10px #FFD700,
+    0 0 15px #FFD700,
+    0 0 20px #FFD700,
+    0 0 25px #FFD700,
+    0 0 30px #FFD700,
+    0 0 35px #FFD700;
+  position: relative;
+  display: inline-block;
+}
+
+.glowing-border {
+  position: relative;
+  padding-inline: 10px;
+  border: 2px solid #FFD700;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.glowing-border::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(255, 215, 0, 0.3) 25%, transparent 25%, transparent 75%, rgba(255, 215, 0, 0.3) 75%, rgba(255, 215, 0, 0.3) 100%);
+  background-size: 50% 50%;
+  animation: glowing-border 2s infinite linear;
+  z-index: 1;
+}
+
+.glowing-border a {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes glowing-border {
+  0% {
+    transform: translateX(-100%) translateY(-100%);
   }
 
-  
-  
-  /* Navbar.css */
+  50% {
+    transform: translateX(100%) translateY(100%);
+  }
+
+  100% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+}
+
 .transition-transform {
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
-/* If you want a smooth transition for opacity as well */
 .opacity-0 {
   opacity: 0;
 }
@@ -86,16 +81,15 @@ box-shadow: 0px 3px 3px 0px rgba(255,255,255,1);
 .nav-link::after {
   content: '';
   display: block;
-  width: 100%; /* Set the full width */
+  width: 100%;
   height: 2.3px;
-  background: white; /* Or any other color */
+  background: white;
   transition: transform 0.3s ease;
   margin-top: 0.6rem;
-  transform: scaleX(0); /* Initially collapsed */
-  transform-origin: center; /* Start from the center */
+  transform: scaleX(0);
+  transform-origin: center;
 }
 
 .nav-link:hover::after {
-  transform: scaleX(1); /* Expand to full width */
+  transform: scaleX(1);
 }
-

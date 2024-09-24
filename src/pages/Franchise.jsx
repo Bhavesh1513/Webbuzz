@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import FranchiseCard from '../components/FranchiseComponents/FranchiseCard';
 import Navbar from '../components/Navbar'
@@ -8,7 +7,7 @@ import ScrollTopButton from '../components/Utils/ScrollTopButton'
 
 const Franchise = () => {
   return (
-    <div className="text-center bg-ternary-color flex flex-col justify-center items-center">
+    <div className=" bg-ternary-color flex flex-col justify-center items-center">
       <Navbar />
       <div className='flex flex-col justify-center items-center p-10'>
         <div className='w-[180px] h-[111px]'>
@@ -21,7 +20,7 @@ const Franchise = () => {
 
         </div>
       </div>
-      <ScrollTopButton/>
+      <ScrollTopButton />
     </div>
   );
 };

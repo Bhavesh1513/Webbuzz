@@ -19,7 +19,7 @@ export const franchises = [
     name: 'KolKata Knight Riders',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/KKR/Logos/Logooutline/KKRoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [2012, 2014, 2024], // Title years for CSK
+    titles: [2012, 2014, 2024], 
     imageBakcGroundBeforeHover:"#ECC542",
     textsectionBackgroundColorBeforeHover:"#281F4A",
   },
@@ -27,7 +27,7 @@ export const franchises = [
     name: 'Mumbai Indians',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/MI/Logos/Logooutline/MIoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [2013, 2015, 2017, 2019, 2020], // Title years for CSK
+    titles: [2013, 2015, 2017, 2019, 2020], 
     imageBakcGroundBeforeHover:"#2D6AB1",
     textsectionBackgroundColorBeforeHover:"#133266",
   },
@@ -35,7 +35,7 @@ export const franchises = [
     name: 'Lucknow Super Giants',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/LSG/Logos/Logooutline/LSGoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [0], // Title years for CSK
+    titles: [0],
     imageBakcGroundBeforeHover:"#FFFFFF",
     textsectionBackgroundColorBeforeHover:"#0248BC",
   },
@@ -43,7 +43,7 @@ export const franchises = [
     name: 'Gujarat Titans',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/GT/Logos/Logooutline/GToutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [0], // Title years for CSK
+    titles: [0],
     imageBakcGroundBeforeHover:"#77C7F2",
     textsectionBackgroundColorBeforeHover:"#0D1A30",
   },
@@ -51,7 +51,7 @@ export const franchises = [
     name: 'Rajasthan Royals',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/RR/Logos/Logooutline/RRoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [2008], // Title years for CSK
+    titles: [2008], 
     imageBakcGroundBeforeHover:"#EB83B5",
     textsectionBackgroundColorBeforeHover:"#043169",
   },
@@ -59,7 +59,7 @@ export const franchises = [
     name: 'Royal Challengers Bengaluru',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/RCB/Logos/Logooutline/RCBoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [0], // Title years for CSK
+    titles: [0],
     imageBakcGroundBeforeHover:"#2B2A29",
     textsectionBackgroundColorBeforeHover:"#4F1C20",
   },
@@ -67,7 +67,7 @@ export const franchises = [
     name: 'Punjab Kings',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/PBKS/Logos/Logooutline/PBKSoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [0], // Title years for CSK
+    titles: [0],
     imageBakcGroundBeforeHover:"#D71920",
     textsectionBackgroundColorBeforeHover:"#273665",
   },
@@ -75,7 +75,7 @@ export const franchises = [
     name: 'Sunrisers Hyderabad',
     imageBeforeHover: 'https://documents.iplt20.com/ipl/SRH/Logos/Logooutline/SRHoutline.png', 
     imageAfterHover:'https://www.iplt20.com/assets/images/teams-trophy.svg',
-    titles: [2016], // Title years for CSK
+    titles: [2016],
     imageBakcGroundBeforeHover:"#F26522",
     textsectionBackgroundColorBeforeHover:"#712325",
   },

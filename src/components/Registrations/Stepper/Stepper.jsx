@@ -11,9 +11,8 @@ const Stepper = ({ currentStep, setCurrentStep, complete }) => {
       {steps?.map((step, i) => (
         <div
           key={i}
-          className={` step-item ${currentStep === i + 1 && "active"} ${
-            (i + 1 < currentStep || complete) && "complete"
-          }`}
+          className={` step-item ${currentStep === i + 1 && "active"} ${(i + 1 < currentStep || complete) && "complete"
+            }`}
         >
           <div className="step border-red-500">
             {i + 1 < currentStep || complete ? <TiTick size={24} /> : i + 1}

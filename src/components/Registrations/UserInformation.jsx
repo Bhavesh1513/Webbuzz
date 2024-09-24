@@ -17,7 +17,7 @@ const UserInformation = ({ name, email, phone, alternateNumber, street, city, zi
             </div>
 
             <div className='border-b-2 border-[#0000ff] pb-4'>
-            <div className='text-3xl font-semibold text-[#0740dd]'>Contact Details</div>
+                <div className='text-3xl font-semibold text-[#0740dd]'>Contact Details</div>
                 <div className='flex flex-row text-2xl gap-10'>
                     <p className='w-60'>Phone no.:</p>
                     <p className='w-60'>{phone}</p>

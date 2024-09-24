@@ -5,7 +5,6 @@ const FeatureCard = ({ isLeft, data }) => {
     <div
       className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'} bg-primary-color shadow-md rounded-md overflow-hidden`}
     >
-      {/* Left section */}
       <div className='p-8'>
         <div className='flex flex-col'>
           <h2 className='font-semibold text-3xl lg:text-5xl'>{data?.heading}</h2>
@@ -14,7 +13,6 @@ const FeatureCard = ({ isLeft, data }) => {
         </div>
       </div>
 
-      {/* Image section */}
       <div className='flex items-center justify-center bg-blue-500 w-[800px] h-[220px] rounded-md'>
         <img
           src={data?.image}

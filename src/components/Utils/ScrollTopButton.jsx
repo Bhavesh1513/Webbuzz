@@ -3,21 +3,18 @@ import { FaArrowUp } from 'react-icons/fa';
 
 const ScrollTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
-
-  // Show button when page is scrolled down
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) { // You can adjust this value
+    if (window.pageYOffset > 300) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
     }
   };
 
-  // Scroll to the top smoothly
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', // Smooth scrolling
+      behavior: 'smooth',
     });
   };
 

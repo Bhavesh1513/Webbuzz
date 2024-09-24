@@ -17,10 +17,9 @@ const Signup = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [complete, setComplete] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
-  const[showPassword, setShowPassword] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  // Input change handler
   const handleInputChange = (step, field, value) => {
     setFormData((prev) => ({
       ...prev,
@@ -28,7 +27,6 @@ const Signup = () => {
     }));
   };
 
-  // Validation function to check fields for each step
   const validateStep = () => {
     switch (currentStep) {
       case 1:
@@ -45,7 +43,7 @@ const Signup = () => {
           toast.error("Password is required");
           return false;
         }
-        if(formData.personalDetails.password.length<5){
+        if (formData.personalDetails.password.length < 5) {
           toast.error("Password should be more than 4 characters.");
           return false;
         }
@@ -55,7 +53,7 @@ const Signup = () => {
           toast.error("Phone number must be 10 digits.");
           return false;
         }
-        if(formData.contact.alternatePhone && formData.contact.alternatePhone.length!==10){
+        if (formData.contact.alternatePhone && formData.contact.alternatePhone.length !== 10) {
           toast.error("Phone number must be 10 digits.");
           return false;
         }
@@ -78,7 +76,7 @@ const Signup = () => {
       return;
     }
 
-    const apiUrl = "https://jsonplaceholder.typicode.com/posts"; // Adjust your API URL
+    const apiUrl = "https://jsonplaceholder.typicode.com/posts";
 
     fetch(apiUrl, {
       method: "POST",
@@ -105,11 +103,10 @@ const Signup = () => {
         }, 1000);
       })
       .catch((error) => {
-        toast.error("There was an error submitting the form. Please try again. ",error);
+        toast.error("There was an error submitting the form. Please try again. ", error);
       });
   };
 
-  // Handler for moving to the next step
   const handleNext = () => {
     if (validateStep()) {
       setCurrentStep((prev) => prev + 1);
@@ -120,7 +117,7 @@ const Signup = () => {
     navigate("/login");
   };
 
-  // Function to render step content
+
   const renderStepContent = () => {
     switch (currentStep) {
       case 1:
@@ -129,8 +126,8 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">Name:</label>
               <input
-               className="outline-none border-b-2 border-[#0000ff] text-2xl"
-               required
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                required
                 type="text"
                 value={formData.personalDetails.name}
                 onChange={(e) => handleInputChange("personalDetails", "name", e.target.value)}
@@ -140,7 +137,7 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">Email:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
                 type="email"
                 value={formData.personalDetails.email}
                 onChange={(e) => handleInputChange("personalDetails", "email", e.target.value)}
@@ -150,21 +147,21 @@ const Signup = () => {
             <div className="input-group relative">
               <label className="text-richblack-900 font-semibold text-3xl">Password:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl "
-              type= {showPassword ? ("text") : ("password")}
+                className="outline-none border-b-2 border-[#0000ff] text-2xl "
+                type={showPassword ? ("text") : ("password")}
                 value={formData.personalDetails.password}
                 onChange={(e) => handleInputChange("personalDetails", "password", e.target.value)}
                 placeholder="Enter Password"
               />
-               <span 
-            className='absolute right-[-2px] top-[29px] cursor-pointer'
-            onClick={() => setShowPassword((prev) => !prev)}>
-                {showPassword ? 
+              <span
+                className='absolute right-[-2px] top-[29px] cursor-pointer'
+                onClick={() => setShowPassword((prev) => !prev)}>
+                {showPassword ?
 
-                (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF'/>) : 
+                  (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF' />) :
 
-                (<AiOutlineEye fontSize={24} fill='#AFB2BF'/>)}
-            </span>
+                  (<AiOutlineEye fontSize={24} fill='#AFB2BF' />)}
+              </span>
             </div>
           </div>
         );
@@ -184,7 +181,7 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">Alternate Phone:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
                 type="text"
                 value={formData.contact.alternatePhone}
                 onChange={(e) => handleInputChange("contact", "alternatePhone", e.target.value)}
@@ -199,7 +196,7 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">Street:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
                 type="text"
                 value={formData.address.street}
                 onChange={(e) => handleInputChange("address", "street", e.target.value)}
@@ -209,7 +206,7 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">City:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
                 type="text"
                 value={formData.address.city}
                 onChange={(e) => handleInputChange("address", "city", e.target.value)}
@@ -219,7 +216,7 @@ const Signup = () => {
             <div className="input-group">
               <label className="text-richblack-900 font-semibold text-3xl">ZIP:</label>
               <input
-              className="outline-none border-b-2 border-[#0000ff] text-2xl"
+                className="outline-none border-b-2 border-[#0000ff] text-2xl"
                 type="text"
                 value={formData.address.zip}
                 onChange={(e) => handleInputChange("address", "zip", e.target.value)}
@@ -242,7 +239,7 @@ const Signup = () => {
             />
             <div className="checkbox-group">
               <input
-              
+
                 type="checkbox"
                 checked={isChecked}
                 onChange={(e) => setIsChecked(e.target.checked)}
@@ -274,9 +271,9 @@ const Signup = () => {
       {!complete && (
         <div className="navigation-buttons text-3xl font-semibold  text-richwhite-1 ">
           {currentStep > 1 ? (
-            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]"  onClick={() => setCurrentStep((prev) => prev - 1)}>Prev</button>
+            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]" onClick={() => setCurrentStep((prev) => prev - 1)}>Prev</button>
           ) : (
-            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]"  onClick={handleNavigate}>Already have an account? Login</button>
+            <button className="bg-[#FF6600] shadow-2 px-10 py-3 rounded-xl transition duration-300 hover:bg-[#ffa365]" onClick={handleNavigate}>Already have an account? Login</button>
           )}
           <button className="bg-[#FF6600] shadow-3 px-10 rounded-xl transition duration-300 hover:bg-[#ffa365]" onClick={() => (currentStep === 4 ? handleSubmit() : handleNext())}>
             {currentStep === 4 ? "Submit" : "Next"}
