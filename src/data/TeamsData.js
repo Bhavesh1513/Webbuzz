@@ -10,7 +10,7 @@ export const INDIA = [
   },
   {
     id:"IND2",
-    Name: "Virat Kolhi",
+    Name: "Virat Kohli",
     image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c332891/virat-kohli.jpg",
     Age:"35",
     profession:"Batter",
@@ -31,7 +31,7 @@ export const INDIA = [
     Name: "Ravindra Jadeja",
     image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352483/ravindra-jadeja.jpg",
     Age:"35",
-    profession:"All Rounder",
+    profession:"ALL Rounder",
     jerseyNo: "8",
     country:"IND"
   },
@@ -106,7 +106,7 @@ export const ENGLAND = [
       Name: "Ben Stokes",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351568/ben-stokes.jpg",
       Age:"37",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "55",
       country:"ENG"
     },
@@ -142,7 +142,7 @@ export const ENGLAND = [
       Name: "Jofra Archer",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170970/jofra-archer.jpg",
       Age:"34",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "22",
       country:"ENG"
     },
@@ -226,7 +226,7 @@ export const ENGLAND = [
       Name: "Mitchell Marsh",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352452/mitchell-marsh.jpg",
       Age:"32",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "33",
       county:"AUS"
     },
@@ -244,7 +244,7 @@ export const ENGLAND = [
       Name: "Glenn Maxwell",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352454/glenn-maxwell.jpg",
       Age:"35",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "32",
       county:"AUS"
     },
@@ -280,7 +280,7 @@ export const ENGLAND = [
       Name: "Marcus Stoinis",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352453/marcus-stoinis.jpg",
       Age:"35",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "14",
       county:"AUS"
     },
@@ -289,7 +289,7 @@ export const ENGLAND = [
       Name: "Cameron Green",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352451/cameron-green.jpg",
       Age:"25",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "42",
       county:"AUS"
     },
@@ -328,7 +328,7 @@ export const ENGLAND = [
       Name: "Shadab Khan",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352424/shadab-khan.jpg",
       Age:"30",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "7",
       country:"PAK"
     },
@@ -373,7 +373,7 @@ export const ENGLAND = [
       Name: "Mohammad Nawaz",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c352425/mohammad-nawaz.jpg",
       Age:"30",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "28",
       country:"PAK"
     },
@@ -412,7 +412,7 @@ export const ENGLAND = [
       Name: "Jason Holder",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c537811/jason-holder.jpg",
       Age:"32",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "98",
       country:"WI"
     },
@@ -457,7 +457,7 @@ export const ENGLAND = [
       Name: "Keemo Paul",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c157866/keemo-paul.jpg",
       Age:"27",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "55",
       country:"WI"
     },
@@ -466,7 +466,7 @@ export const ENGLAND = [
       Name: "Rovman Powell",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244832/rovman-powell.jpg",
       Age:"30",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "44",
       country:"WI"
     },
@@ -484,7 +484,7 @@ export const ENGLAND = [
       Name: "Kyle Mayers",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244721/kyle-mayers.jpg",
       Age:"31",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "48",
       country:"WI"
     },
@@ -523,7 +523,7 @@ export const ENGLAND = [
       Name: "Wanindu Hasaranga",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c244676/wanindu-hasaranga.jpg",
       Age:"29",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "21",
       country:"LK"
     },
@@ -559,7 +559,7 @@ export const ENGLAND = [
       Name: "Angelo Mathews",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c170706/angelo-mathews.jpg",
       Age:"37",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "15",
       country:"LK"
     },
@@ -586,7 +586,7 @@ export const ENGLAND = [
       Name: "Charith Asalanka",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351873/charith-asalanka.jpg",
       Age:"26",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "60",
       country:"LK"
     },
@@ -661,7 +661,7 @@ export const ENGLAND = [
       Name: "Daryl Mitchell",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351601/daryl-mitchell.jpg",
       Age:"32",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "67",
       country:"NZ"
     },
@@ -697,7 +697,7 @@ export const ENGLAND = [
       Name: "Mitchell Santner",
       image:"https://static.cricbuzz.com/a/img/v1/152x152/i1/c351608/mitchell-santner.jpg",
       Age:"31",
-      profession:"All Rounder",
+      profession:"ALL Rounder",
       jerseyNo: "74",
       country:"NZ"
     },

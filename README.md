@@ -16,6 +16,11 @@ WebBuzz is a dynamic web application that reflects the spirit of the sport of cr
 - **React JS**: A powerful JavaScript library for building interactive user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework, allowing rapid and responsive UI development with minimal custom CSS.
 
+## Login credentials:
+- If you don't want to signup then just login with this credentials:
+- **email**: test@gmail.com.
+- **password**: 12345
+
 ## Installation Instructions
 
 To set up the project locally, follow these steps:
