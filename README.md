@@ -82,6 +82,10 @@ Contributions are welcome! If you'd like to contribute to WebBuzz, please follow
 
 Please ensure your code adheres to our coding standards and includes appropriate documentation where necessary.
 
+## Project Screenshot
+ 
+![lp1](https://github.com/user-attachments/assets/2ee56a3b-c34a-4872-9ea9-2ab6c8dc4b09)
+
 ---
 
 **Enjoy exploring WebBuzz!**
