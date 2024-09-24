@@ -47,7 +47,7 @@ const Formats = () => {
   }, []);
 
   return (
-    <div className='w-11/12 flex flex-col gap-20 pt-20 overflow-x-hidden'>
+    <div className='w-11/12 flex flex-col gap-20 pt-20 overflow-x-hidden mx-auto'>
       <div className='flex flex-col justify-center items-center gap-6'>
         <p className='font-semibold text-4xl lg:text-6xl text-white text-center'>
           Discover the Thrill of Every Format

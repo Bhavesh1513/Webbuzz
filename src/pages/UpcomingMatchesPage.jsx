@@ -51,7 +51,7 @@ const MatchList = () => {
             </button>
 
             <div className="h-[100%] p-8 w-11/12 mx-auto">
-              
+
                 <div className=" mx-auto  rounded-lg p-6">
                     <h1 className="text-3xl font-bold text-center text-white mb-6">
                         Cricket Matches
